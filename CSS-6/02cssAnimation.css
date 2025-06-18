@@ -1,0 +1,43 @@
+.box {
+  height: 200px;
+  width: 300px;
+  background-color: bisque;
+  border: 2px solid red;
+  text-align: center;
+  animation-name: abhay;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: 3;
+  animation-duration: 2s;
+  /* animation-direction: normal; */
+  animation-direction: alternate;
+}
+
+.box {
+  animation-name: viraaj;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: 3;
+  animation-duration: 2s;
+  animation-direction: normal;
+  /* animation-direction: alternate; */
+}
+
+@keyframes abhay {
+  from {
+    font-size: 20px;
+    /* background-color: bisque; */
+  }
+  to {
+    font-size: 40px;
+  }
+}
+
+@keyframes viraaj {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: red;
+  }
+}

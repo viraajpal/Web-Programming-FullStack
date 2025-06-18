@@ -1,0 +1,42 @@
+div {
+  height: 200px;
+  width: 200px;
+  /* O for Opacity but this  will only applicable to the box which we have set not the other html element  */
+  background-color: rgba(10, 19, 117, 0.5);
+  /* text-align: center; */
+  padding-left: 6px;
+}
+div:hover
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: 500; */
+}
+
+#abhi {
+  border: 5px solid green;
+  margin-top: 10px;
+  /* opacity: 0.5; */
+  transition: 2s;
+  text-align: left;
+  padding-left: 6px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.btn1:hover {
+  background-color: gray;
+  color: white;
+  transition: 2s;
+  background-color: pink;
+  color: white;
+}
+
+/* .b1
+{
+    margin: 0 auto;
+} */
+ 

@@ -1,0 +1,45 @@
+ body {
+  background-color: bisque;
+}
+
+.a {
+  height: 300px;
+  width: 300px;
+  background-color: gold;
+  padding: 20px;
+  padding-left: 20px;
+  border-radius: 50%;
+}
+
+.b {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(29, 34, 21);
+  position: relative;
+  top: 40px;
+  left: 70px;
+  border-radius: 50%;
+}
+
+.c {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  margin: 5px 0 0 0;
+  position: relative;
+  left: 180px;
+  bottom: 5px;
+  border-radius: 50%;
+}
+
+.f {
+  height: 40px;
+  width: 80px;
+  background-color: rgb(255, 34, 21);
+  margin: 5px 0 0 0;
+  position: relative;
+  top: 110px;
+  left: 107px;
+  border-end-start-radius: 25px;
+  border-end-end-radius: 25px;
+}

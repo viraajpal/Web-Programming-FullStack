@@ -1,0 +1,55 @@
+h2 {
+  color: orange;
+}
+span {
+  color: brown;
+}
+
+.first {
+  display: flex;
+  gap: 40px;
+}
+.main {
+  border: 2px solid black;
+  height: 900px;
+  width: 550px;
+  border-radius: 20px;
+}
+
+.card {
+  border: 2px solid black;
+  height: 600px;
+  width: 500px;
+  border-radius: 20px;
+  background-image: url(abhay.jpg);
+  background-size: cover;
+  margin: 20px 20px 20px 20px;
+  justify-content: space-evenly;
+}
+
+.card1 {
+  border: 2px solid black;
+  height: 600px;
+  width: 500px;
+  border-radius: 20px;
+  background-image: url(baby.jpg);
+  background-size: cover;
+  margin: 20px 20px 20px 20px;
+  justify-content: space-evenly;
+}
+
+.ab {
+  padding-left: 15px;
+}
+
+p {
+  padding-left: 25px;
+  padding-right: 20px;
+  font-size: large;
+}
+
+h3 {
+  text-align: center;
+  columns: red;
+  font-weight: bold;
+}

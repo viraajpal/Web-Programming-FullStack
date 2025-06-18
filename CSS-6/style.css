@@ -1,0 +1,22 @@
+.grid-container {
+  border: 3px solid black;
+  background-color: antiquewhite;
+  height: 800px;
+  width: 800px;
+  display: grid;
+  text-align: center;
+  display: flex;
+  /* grid-gap: 89px; */
+  justify-content: space-between;
+  /* grid-template-rows: 90px 90px 90px 90px 90px 90px;
+  grid-template-columns: 90px 90px 90px 90px 90px 90px; */
+}
+
+.A {
+  grid-column: 1/2;
+  display: grid;
+  border: 2px solid green;
+  height: 50px;
+  width: 150px;
+  background-color: gold;
+}

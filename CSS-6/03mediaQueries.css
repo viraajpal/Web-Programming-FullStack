@@ -1,0 +1,28 @@
+h1 {
+  color: rgb(13, 243, 243);
+  font-weight: bold;
+}
+
+h1::first-letter {
+  color: red;
+}
+
+div {
+  height: 250px;
+  width: 250px;
+  border: 3px solid green;
+  background-color: bisque;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  div {
+    background-color: black;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  div {
+    background-color: black;
+  }
+}
