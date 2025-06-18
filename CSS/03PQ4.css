@@ -1,0 +1,25 @@
+* {
+  font-family: "Courier New";
+}
+
+.fb {
+  color: blue;
+}
+
+.btn {
+  background-color: aqua;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #000000;
+}
+
+.srch {
+  color: white;
+  background-color: black;
+}
+
+.fb::first-letter {
+  color: blueviolet;
+}
